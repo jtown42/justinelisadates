@@ -179,14 +179,3 @@
 
         function selectRestaurant(name) {
             selectedRestaurant = name;
-            alert(`You selected: ${name}`);
-        }
-
-        function selectActivity(name) {
-            selectedActivity = name;
-            alert(`You selected: ${name}`);
-        }
-
-        function confirmSelection() {
-            if (selectedRestaurant && selectedActivity) {
-                window.location.href = `celebration.html?restaurant=${encodeURIComponent
